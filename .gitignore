@@ -1,0 +1,32 @@
+# Environment variables and secrets
+.env
+.env.*
+
+# Python virtual environment and cache
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE and OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Database
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Generated reports
+reports/
+
+# OWASP ZAP session files
+*.session
+*.session.*
+*.session.data
+*.session.lck
+*.session.log
+*.session.properties
+*.session.script
